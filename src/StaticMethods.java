@@ -25,3 +25,4 @@ public class StaticMethods {
         Mobile2.name = "FeaturePhone"; // This will override the previous "SmartPhone"
 
         obj1.show(); // Apple :
+    }}
