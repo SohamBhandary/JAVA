@@ -13,5 +13,6 @@ class BufferedReaderExample {
         int age = Integer.parseInt(reader.readLine());
 
         System.out.println("Hello, " + name + "! You are " + age + " years old.");
+        reader.close();
     }
 }
