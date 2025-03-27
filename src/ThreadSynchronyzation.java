@@ -1,16 +1,16 @@
-class SharedResource {
+class SharedResource1 {
     private int counter = 0;
 
-    public void  increment() {
+    public synchronized void increment() {
         counter++;
     }
 
-    public int  getCounter() {
+    public int getCounter() {
         return counter;
     }
 }
 
-public class RaceCondition {
+public class ThreadSynchronyzation {
     public static void main(String[] args) throws InterruptedException {
         SharedResource resource = new SharedResource();
 
